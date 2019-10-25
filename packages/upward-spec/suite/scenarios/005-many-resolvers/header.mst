@@ -1,0 +1,16 @@
+<header>Page Header</header>
+{{> menu}}
+
+var firebaseConfig = {
+    apiKey: "AIzaSyAxbqWd4V5li7tlW8W_oaUwKnfGEqQaypw",
+    authDomain: "vitro-6f2c6.firebaseapp.com",
+    databaseURL: "https://vitro-6f2c6.firebaseio.com",
+    projectId: "vitro-6f2c6",
+    storageBucket: "vitro-6f2c6.appspot.com",
+    messagingSenderId: "213692084493",
+    appId: "1:213692084493:web:01f2767e118bdc4728c044",
+    measurementId: "G-N4ZH75TB2B"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+firebase.analytics();
